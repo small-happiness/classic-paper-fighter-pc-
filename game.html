@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plane Fighting</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/plane.css" media="all">
+</head>
+<body>
+<div id="container">
+    <div id="startmain">
+        <button id="start" value="start">Start Game</button>
+    </div>
+    <div id="gamemain">
+        <div id="playing">
+            <p>当前分数: <span id="score">0</span></p>
+            <p>BOSS血量: <span id="bossblood"></span></p>
+            <p>玩家血量: <span id="playerblood">3</span></p>
+            <button id="pause"></button>
+        </div>
+        <div id="pausepage">
+            <button id="goon">继续</button><br/>
+            <button id="replay">重新开始</button><br/>
+            <!--<button id="myreturn">回到主页</button>-->
+        </div>
+        <div id="over">
+            <p>游戏得分 <span id="overscore"></span></p>
+            <button id="newgame">新游戏</button>
+            <button id="exit">退出游戏</button>
+        </div>
+    </div>
+
+    <div id="bg">
+        <img src="img-plane/bg1.png" alt=""><img src="img-plane/bg1.png" alt=""><img src="img-plane/bg1.png" alt=""><img src="img-plane/bg1.png" alt="">
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="js/game.js"></script>
+</html>
